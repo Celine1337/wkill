@@ -36,7 +36,7 @@ fn run_gdbus(method: &str, args: &[String]) -> Result<String, String> {
             || err.contains("UnknownObject")
             || err.contains("UnknownMethod")
         {
-            return Err("wkill bridge extension is not active. Run `wkill install`, then log out and back in once.".into());
+            return Err("wkill bridge extension is not active. Run `wkill install`, then log out and back in once. If it still fails, check `gnome-extensions info wkill@celine1337` (State should be ACTIVE).".into());
         }
         return Err(err);
     }

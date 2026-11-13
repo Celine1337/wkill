@@ -1,7 +1,10 @@
 import Gio from 'gi://Gio';
 import GLib from 'gi://GLib';
 import Meta from 'gi://Meta';
-import {Extension} from 'resource:///org/gnome/shell/misc/extensionUtils.js';
+
+// GNOME 50 moved the Extension base class out of misc/extensionUtils.js
+const {Extension} = await import('resource:///org/gnome/shell/extensions/extension.js')
+    .catch(() => import('resource:///org/gnome/shell/misc/extensionUtils.js'));
 
 const DBUS_PATH = '/org/gnome/Shell/Extensions/Wkill';
 

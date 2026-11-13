@@ -65,17 +65,18 @@ fn status() -> Result<(), String> {
         install::session_type(),
         install::gnome_version()
     );
-    println!(
-        "extension:  {} ({})",
-        install::extension_state(),
-        install::UUID
-    );
+    let bridge = dbus::bridge_ok();
+    let mut state = install::extension_state();
+    if bridge.is_ok() && (state == "ERROR" || state == "UNKNOWN") {
+        state += " — stale shell cache, bridge is live; re-login clears this";
+    }
+    println!("extension:  {} ({})", state, install::UUID);
     let cmd = command_path()?;
     match hotkey::find_wkill_slot(&cmd)? {
         Some(s) => println!("hotkey:     {} → {}", s.binding, s.command),
         None => println!("hotkey:     not registered (run `wkill install`)"),
     }
-    match dbus::bridge_ok() {
+    match bridge {
         Ok(n) => println!("bridge:     ok ({n} windows visible)"),
         Err(e) => println!("bridge:     {e}"),
     }

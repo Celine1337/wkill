@@ -21,6 +21,7 @@ pub fn installed_bin() -> Result<PathBuf, String> {
 fn gnome_extensions(args: &[&str]) -> Result<String, String> {
     let out = Command::new("gnome-extensions")
         .args(args)
+        .env("LC_ALL", "C")
         .output()
         .map_err(|e| format!("cannot run gnome-extensions: {e}"))?;
     let stdout = String::from_utf8_lossy(&out.stdout).trim().to_string();
