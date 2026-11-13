@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" font-family="Ubuntu, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="330" rx="24" fill="#2b2126"/>
+  <g fill="#8e4a63">
+    <circle cx="67" cy="44" r="7"/><circle cx="63.37" cy="55.17" r="7"/><circle cx="53.87" cy="62.07" r="7"/><circle cx="42.13" cy="62.07" r="7"/><circle cx="32.63" cy="55.17" r="7"/><circle cx="29" cy="44" r="7"/><circle cx="32.63" cy="32.83" r="7"/><circle cx="42.13" cy="25.93" r="7"/><circle cx="53.87" cy="25.93" r="7"/><circle cx="63.37" cy="32.83" r="7"/><circle cx="48" cy="44" r="21"/>
+  </g>
+  <g fill="none" stroke="#f8e3ea" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M43 38 l-6 6 6 6 M53 38 l6 6 -6 6"/>
+  </g>
+  <text x="92" y="54" font-size="27" font-weight="700" fill="#f8e3ea">Tech stack</text>
+  <text x="48" y="112" font-size="15" font-weight="700" fill="#a8929a" letter-spacing="2">CORE</text>
+  <g fill="#3b2c33" stroke="#55404a">
+    <rect x="48" y="128" width="130" height="44" rx="12"/>
+    <rect x="190" y="128" width="190" height="44" rx="12"/>
+    <rect x="392" y="128" width="170" height="44" rx="12"/>
+  </g>
+  <g fill="none" stroke="#eba7b9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(62,140)"><circle cx="10" cy="10" r="5"/><circle cx="10" cy="10" r="2"/><circle cx="17.5" cy="10" r="1.8"/><circle cx="15.3" cy="15.3" r="1.8"/><circle cx="10" cy="17.5" r="1.8"/><circle cx="4.7" cy="15.3" r="1.8"/><circle cx="2.5" cy="10" r="1.8"/><circle cx="4.7" cy="4.7" r="1.8"/><circle cx="10" cy="2.5" r="1.8"/><circle cx="15.3" cy="4.7" r="1.8"/></g>
+    <g transform="translate(204,140)"><path d="M3 10 l5 5 9 -11"/></g>
+    <g transform="translate(406,140)"><path d="M10 1 l8 4.5 v9 L10 19 l-8 -4.5 v-9 z M2 5.5 L10 10 l8 -4.5 M10 10 v9"/></g>
+  </g>
+  <g font-size="17" fill="#f8e3ea">
+    <text x="92" y="156">Rust</text>
+    <text x="234" y="156">GNOME 45-50</text>
+    <text x="436" y="156">Zero deps</text>
+  </g>
+  <text x="48" y="222" font-size="15" font-weight="700" fill="#a8929a" letter-spacing="2">QUALITY</text>
+  <g fill="#3b2c33" stroke="#55404a">
+    <rect x="48" y="238" width="190" height="44" rx="12"/>
+    <rect x="250" y="238" width="180" height="44" rx="12"/>
+    <rect x="442" y="238" width="210" height="44" rx="12"/>
+  </g>
+  <g fill="none" stroke="#eba7b9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(62,250)"><path d="M3 10 l5 5 9 -11"/></g>
+    <g transform="translate(264,250)"><path d="M3 4 h14 M3 9 h10 M3 14 h14 M15 12 l3 3 -3 3"/></g>
+    <g transform="translate(456,250)"><path d="M10 1 l8 3 v6 c0 5 -3.5 8 -8 9 c-4.5 -1 -8 -4 -8 -9 v-6 z"/><path d="M6.5 10 l2.5 2.5 4.5 -5"/></g>
+  </g>
+  <g font-size="17" fill="#f8e3ea">
+    <text x="92" y="266">11 unit tests</text>
+    <text x="294" y="266">clippy + fmt</text>
+    <text x="486" y="266">shell-pid guard</text>
+  </g>
+</svg>

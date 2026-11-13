@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" font-family="Ubuntu, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <clipPath id="card"><rect width="1200" height="380" rx="28"/></clipPath>
+  </defs>
+  <rect width="1200" height="380" rx="28" fill="#2b2126"/>
+  <g clip-path="url(#card)">
+    <path d="M940 0 C930 70 990 110 1050 118 C1110 126 1150 96 1200 110 L1200 0 Z" fill="#8e4a63"/>
+    <path d="M1010 380 C1000 330 1040 300 1090 296 C1140 292 1170 320 1200 310 L1200 380 Z" fill="#8a6a2f"/>
+    <g fill="#7b5563">
+      <circle cx="1137" cy="240" r="9"/><circle cx="1128" cy="263" r="9"/><circle cx="1105" cy="272" r="9"/><circle cx="1082" cy="263" r="9"/>
+      <circle cx="1073" cy="240" r="9"/><circle cx="1082" cy="217" r="9"/><circle cx="1105" cy="208" r="9"/><circle cx="1128" cy="217" r="9"/>
+      <circle cx="1105" cy="240" r="30"/>
+    </g>
+    <circle cx="1105" cy="240" r="11" fill="#2b2126"/>
+  </g>
+  <g fill="#eba7b9">
+    <circle cx="284" cy="190" r="30"/><circle cx="272.75" cy="232" r="30"/><circle cx="242" cy="262.75" r="30"/><circle cx="200" cy="274" r="30"/><circle cx="158" cy="262.75" r="30"/><circle cx="127.25" cy="232" r="30"/><circle cx="116" cy="190" r="30"/><circle cx="127.25" cy="148" r="30"/><circle cx="158" cy="117.25" r="30"/><circle cx="200" cy="106" r="30"/><circle cx="242" cy="117.25" r="30"/><circle cx="272.75" cy="148" r="30"/>
+    <circle cx="200" cy="190" r="92"/>
+  </g>
+  <circle cx="200" cy="190" r="64" fill="#f8e3ea"/>
+  <g fill="none" stroke="#7b5563" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="156" y="150" width="88" height="66" rx="10"/><path d="M172 168 l14 12 -14 12 M198 192 h26"/></g>
+  <text x="360" y="118" font-size="20" font-weight="700" fill="#f8e3ea" letter-spacing="0.5">xkill for gnome wayland</text>
+  <text x="360" y="185" font-size="62" font-weight="800" fill="#f8e3ea">wkill</text>
+  <text x="360" y="228" font-size="24" fill="#e3ccd4">Kill any window by hotkey — the xkill that Wayland forgot</text>
+  <rect x="360" y="262" width="210" height="40" rx="20" fill="#3b2c33"/>
+  <g transform="translate(378,273)" fill="none" stroke="#eba7b9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="24" height="18" rx="3"/><path d="M4 5 l4 4 -4 4 M12 13 h6"/>
+  </g>
+  <text x="412" y="288" font-size="18" fill="#eba7b9">wkill install</text>
+  <rect x="586" y="262" width="160" height="40" rx="20" fill="#3b2c33"/>
+  <g transform="translate(602,273)" fill="none" stroke="#eba7b9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="16" height="18" rx="2"/><path d="M4 5 h8 M4 9 h8 M4 13 h5"/>
+  </g>
+  <text x="628" y="288" font-size="18" fill="#eba7b9">License: MIT</text>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "uuid": "wkill@celine1337",
+  "name": "wkill bridge",
+  "description": "Exposes a minimal D-Bus API (window list, close/kill) for the wkill command-line tool. No UI, no settings, no telemetry.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1
+}

@@ -1,0 +1,21 @@
+[package]
+name = "wkill"
+version = "0.1.0"
+edition = "2021"
+description = "xkill for GNOME Wayland: kill the focused window by hotkey, or pick one interactively"
+license = "MIT"
+repository = "https://github.com/Celine1337/wkill"
+keywords = ["wayland", "gnome", "xkill", "window", "kill"]
+categories = ["command-line-utilities", "os::linux-apis"]
+
+[lib]
+name = "wkill"
+path = "src/lib.rs"
+
+[[bin]]
+name = "wkill"
+path = "src/main.rs"
+
+[profile.release]
+strip = true
+lto = true

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="76" viewBox="0 0 1200 76" font-family="Ubuntu, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="76" rx="20" fill="#2b2126"/>
+  <g fill="#8e4a63">
+    <circle cx="67" cy="38" r="7"/><circle cx="63.37" cy="49.17" r="7"/><circle cx="53.87" cy="56.07" r="7"/><circle cx="42.13" cy="56.07" r="7"/>
+    <circle cx="32.63" cy="49.17" r="7"/><circle cx="29" cy="38" r="7"/><circle cx="32.63" cy="26.83" r="7"/><circle cx="42.13" cy="19.93" r="7"/>
+    <circle cx="53.87" cy="19.93" r="7"/><circle cx="63.37" cy="26.83" r="7"/><circle cx="48" cy="38" r="21"/>
+  </g>
+  <path d="M48 28 C49.5 35 51 36.5 58 38 C51 39.5 49.5 41 48 48 C46.5 41 45 39.5 38 38 C45 36.5 46.5 35 48 28 Z" fill="#f8e3ea"/>
+  <text x="92" y="48" font-size="27" font-weight="700" fill="#f8e3ea">Features</text>
+</svg>
